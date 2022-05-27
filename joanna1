@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+    <!-- Font Awesome link-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- Css file -->
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="javascript" href="main.js">
+    <link rel="jquery" href="jquery.hislide.js">
+    <title>Safe-Seat</title>
+</head>
+<body>
+    
+<!--Header section starts-->
+
+<header id="header">
+
+    <a href="#home" class="logo"><img src="./img/logo.png"></a>
+    <input type="checkbox" class="check" id="menu-bar">
+    <label for="menu-bar" class="fas fa-bars"></label>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#how">How it works</a>
+        <a href="#why">Why safe-seat?</a>
+        <a href="#our">Our products</a>
+        <a href="#need">Who needs us</a>
+        <a href="#contact"><button class="button">Contact Us</button></a>
+    </nav>
+
+</header>
+
+<!--Header section ends-->
+    
+<!--Home section-->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h2>safe-seat</h2></br>
+        <h1>hygiene & comfort</h1><br>
+        <h3>Automated system for replacing disposable toilet covers (automatic dispenser for toilet covers).</h3></br>
+        <h3>We provide maximum hygiene and comfort in public toilets.The system is installed practically on any toilet instead of the usual seat.</h3><br>
+        <a href="#contact"><button class="button">Contact Us</button></a>
+    </div>
+
+    <div class="image">
+        <img src="./img/1.jpeg" alt="" width="60%" height="60%">
+    </div>
+
+</section>
+
+<!--Home Section ends-->
+
+<!--How section start-->
+    
+<section class="main">
+
+    <div class="how" id="how">
+        <h1>How it works</h1><br>
+        <h3>Safe-seat.dk is designed to meet public and business<br> demands for a safer and more hygienic environment.</h3>
+    </div>
+    <div class="container">
+        <input type="checkbox" id="click">
+        <label for="click" class="click-me">Learn more</label>
+        <div class="content1">
+            <div class="header">
+                <h2>Safe-seat</h2>
+                <label for="click" class="fas fa-times"></label>
+            </div>
+            <label for="click" class="fas fa-check"></label>
+            <p>Safe-seat is here to improve the public sector and the service industry.
+                We want to decrease the usage of paper and help the businesses be more environmently friendly
+                and to give people better sanitized public toilets.
+            </p>
+            <div class="line"></div>
+            <label for="click" class="close-btn">Close</label>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slide active">
+            <img src="./img/before.jpg" alt="">
+            <div class="info">
+                <h2>Before using Safe-Seat</h2>
+                <p>The day to day using of public toilets come with a lot of issues. Safe-seat is here to change it.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="./img/after.jpg" alt="">
+            <div class="info">
+                <h2>After using Safe-Seat</h2>
+                <p>Safe-seat means clear public toilets and steril environment.</p>
+            </div>
+        </div>
+        <div class="navig">
+            <i class="fas fa-chevron-left prev-btn"></i>
+            <i class="fas fa-chevron-right next-btn"></i>
+        </div>
+        <div class="navig-visibility">
+            <div class="slide-icon active"></div>
+            <div class="slide-icon"></div>
+        </div>
+    </div>
+    <img src="./img/wav.svg" class="left">
+
+</section>
+
+<!--How section ends-->
+
+<!--Section Why-->
+
+<section class="why">
+    <div class="why_txt" id="why">
+        <h1>Why safe-seat?</h1><br>
+        <h3>Safe-seat is the best choice for those who want to<br>
+        ensure the comfort of their guests, employees and<br>
+        customers</h3>
+        <h3>Only 9% of the respondents said that they use the<br>
+        toilet seats as it is when they use a public rest-room</h3>
+        <h3>But what the rest 91% do?</h3>
+    </div> 
+
+    <div class="card-container">
+        <div class="row">
+            <div class="card">
+                <img src="./img/eagle.png" alt="">
+                <div class="card-content">
+                    <div class="counter" data-target="39">39%</div>
+                    <p>Use eagle position</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="./img/ppr.png" alt="">
+                <div class="card-content">
+                    <div class="counter" data-target="38">38%<br></div>
+                    <p>Use paper towels</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="./img/squat.png" alt="">
+                <div class="card-content">
+                    <div class="counter" data-target="7">7%</div>
+                    <p>Squat on seat</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="./img/wipe.png" alt="">
+                <div class="card-content">
+                    <div class="counter" data-target="7">7%</div>
+                    <p>Wipe the seat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>   
+
+<!--Section why ends-->
+  
+<!--Footer starts-->
+<footer>
+    <div class="content-footer">
+
+        <div class="left box">
+            <h2>About Us</h2>
+            <div class="cont-foot">
+                <p>
+                    Automated system for replacing disposable toilet covers (automatic dispenser for toilet covers).
+                    We provide maximum hygiene and comfort in public toilets.The system is installed practically on any toilet instead of the usual seat.
+                </p>
+            </div>
+        </div>
+
+        <div class="center box">
+            <h2>Address</h2>
+            <div class="cont-foot">
+                <div class="place">
+                  <i class="fas fa-map-marker"></i>
+                  <span class="text">Roberts Vej 21, Copenhagen</span>
+                </div>
+                <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    <span class="text">+45234321</span>
+                  </div>
+                <div class="email">
+                    <i class="fas fa-envelope"></i>
+                    <span class="text">safe-seat@gmail.com</span>
+                </div>  
+            </div>
+        </div>
+
+        <div class="right box" id="contact">
+            <h2>Contact Us</h2>
+            <div class="cont-foot">
+                <form action="#">
+                    <div class="email">
+                        <div class="text">Email *</div>
+                        <input type="email" required>
+                    </div>
+                    <div class="msg">
+                        <div class="text">Message *</div>
+                        <textarea rows="2" cols="25" required></textarea>
+                    </div>
+                    <div class="btn-foot">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <center>
+            <span class="credit">Created By The Usual Suspects</span>
+            <i class="far fa-copyright"></i><span>2021 All rights reserved.</span>
+        </center>
+    </div>
+</footer>
+    <!--Footer ends-->
+
+<script src="main.js"></script>
+
+
+</body>
+</html>
